@@ -1,6 +1,6 @@
 #       MILF (man i laugh forbidden)
 <p align="center">
-  <img src="https://i.imgur.com/ELcDw6A.jpg" width="350" height="350">
+  <img src="https://i.imgur.com/ELcDw6A.jpg" width="250" height="250">
 </p>
 
     >> um script com o intuito de burlar restrições de acesso não autorizado (403 forbidden).
