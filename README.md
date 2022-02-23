@@ -5,7 +5,7 @@
 
     >> um script com o intuito de burlar restrições de acesso não autorizado (403 forbidden).
 ---
-```
+```bash
 > para utilizar o módulo de injeção de payloads na URL:
 
   >> ./403 -u http://pwnme.com.br/MILF -w url.txt
@@ -15,20 +15,20 @@
   >> ./403 -u http://pwnme.com.br/ -w wordlist_headers.txt
 ```
 
-```
+```bash
 > exemplificação de uso:
   >> ./403 -u http://127.0.0.1:8000/exemplo/MILF -w url.txt -h "Set-Cookie: Teste" -t 2
-    >>> os payloads serão injetados no local do 'MILF', terão 2 de thread e o cookie 'Set-Cookie: Teste'
+    >> os payloads serão injetados na posição no 'MILF', terão 2 de thread e o cookie 'Set-Cookie: Teste'
 ```
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/44043159/155319639-149c303f-c423-4473-9662-2a672c2c3cb2.png">
 </p>
 
-```
+```bash
 > exemplificação de uso:
   >> ./403 -u http://127.0.0.1:8000/ -w wordlist.txt -h "Cookie: Exemplo" -i 192.168.1.5
-    >>> os payloads serão injetados nos headers, o cookie 'Cookie: Exemplo' e o IP 192.168.1.5 no payload.
+    >> os payloads serão injetados nos headers, o cookie 'Cookie: Exemplo' e o IP 192.168.1.5 no payload.
 ```
 
 <p align="center">
@@ -42,10 +42,11 @@
 </p>
 
 ```bash
-git clone https://github.com/march0s1as/MILF
-cd MILF
-go get -v github.com/fatih/color
-go build 403.go
-./403 -h
+> instalação
+  :: git clone https://github.com/march0s1as/MILF
+  :: cd MILF
+  :: go get -v github.com/fatih/color
+  :: go build 403.go
+  :: ./403 -h
 ```
 
