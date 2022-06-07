@@ -8,7 +8,7 @@
 ```bash
 > para utilizar o módulo de injeção de payloads na URL:
 
-  >> ./403 -u http://pwnme.com.br/MILF -w url.txt
+  >> ./403 -u http://pwnme.com.br/MILF -w wordlist.txt
   
 > para utilizar o módulo de injeção de payloads nos headers:
 
@@ -17,7 +17,7 @@
 
 ```bash
 > exemplificação de uso:
-  >> ./403 -u http://127.0.0.1:8000/exemplo/MILF -w url.txt -h "Set-Cookie: Teste" -t 2
+  >> ./403 -u http://127.0.0.1:8000/exemplo/MILF -w wordlist.txt -h "Set-Cookie: Teste" -t 2
     >> os payloads serão injetados na posição no 'MILF', terão 2 de thread e o cookie 'Set-Cookie: Teste'
 ```
 </p>
